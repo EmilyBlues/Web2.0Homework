@@ -1,0 +1,11 @@
+{
+  "name": "web07",
+  "version": "1.0.0",
+  "description": "\"EmilyBlues's simple siginin system\"",
+  "main": "signin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "EmilyBlues",
+  "license": "ISC"
+}

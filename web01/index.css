@@ -1,0 +1,32 @@
+body{
+	background-image: url(https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg);
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+h1{
+	color: #A4A400;
+	background-color: #F0F0F0;
+	font-family: "Century Gothic", Verdana, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 22pt;
+	text-decoration: underline;
+	letter-spacing: 0.2em;
+}
+
+.test:hover{
+	box-shadow:0px 0px 1px 2px #a4a4a4;
+}
+
+a{
+	color: #A4A400;
+}
+
+p{
+	color: #A4A400;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	font-weight: formol;
+	font-size: 14pt;
+}

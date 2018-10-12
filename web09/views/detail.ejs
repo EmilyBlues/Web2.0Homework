@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Detail</title>
+	<link rel='icon' sizes='131x77' href='images/icon1.png'>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/detail.css" />
+</head>
+<body>
+	<div id="main">
+		<img src="/images/icon2.png">
+		<h1>用户详情</h1>
+		<p>用户名<span><%= user.username %></span></p>
+
+		<p>学号<span><%= user.s_id %></span></p>
+      
+		<p>电话<span><%= user.phone %></span></p>
+      
+		<p>邮箱<span><%= user.email %></span></p>
+		<% if (otherUserVisited) { %>
+			<div class="tip">
+				<p>只能够访问自己的数据</p>
+			</div>
+		<% } %>
+		<div>
+			<button id="signout" class="button"><a href="/signout">退出登录</a></button>
+		</div>
+	</div>
+</body>
+</html>

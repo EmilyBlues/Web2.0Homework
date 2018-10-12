@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title><%= title %></title>
+		<link rel='icon' sizes='131x77' href='images/icon1.png'>
+		<link rel='stylesheet' href='/stylesheets/index.css' />
+		<script type="text/javascript" src="/javascripts/jquery.js"></script>
+		<script type="text/javascript" src="/javascripts/signinClient.js"></script>
+	</head>
+	<body>
+		<div id="main">
+			<img src="/images/icon2.png">
+			<h1><%= title %></h1>
+			<form method="post">
+					<div class="username">
+						<input type="text" name="username" placeholder="用户名" value="<%= user.username %>" />
+					</div>
+					<br>
+					<div class="password">
+						<input type="password" name="password" placeholder="密码" value="<%= user.password %>" />
+					</div>
+					<br>
+					<div class="error"><%= errors %></div>
+
+				<div class="buttons">
+						<input  class="button" type="submit" value="登录" />
+						<button class="button"><a href="/regist">注册</a></button>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

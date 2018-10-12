@@ -1,0 +1,189 @@
+h1, h2, h3{
+  font-family: "Century Gothic", sans-serif;
+}
+
+h1{
+  font-size: 25pt;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  font-size: 15pt;
+  font-weight: normal;
+}
+
+h3{
+  font-weight: normal;
+  font-size: 10pt;
+}
+
+body{
+  position: relative;
+  width: 800px;
+  height: 90vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mainBody{
+  margin: auto auto;
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.walls, #wallExample{
+  background-color: #eeeeee;
+}
+
+.wallsFail{
+  background-color: #ff4f4f;
+}
+
+#topLeft{
+  position: relative;
+  top: 1px;
+  border: 1px solid black;
+  width: 150px;
+  height: 200px;
+}
+
+#topRight{
+  position: relative;
+  top: -201px;
+  left: 348px;
+  border: 1px solid black;
+  width: 150px;
+  height: 200px;
+  overflow: hidden;
+}
+
+#topMiddle{
+  position: relative;
+  top: -403px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 200px;
+  height: 50px;
+  margin: auto auto;
+}
+
+#middle{
+  position: relative;
+  margin: auto auto;
+  top: -411px;
+  border: 1px solid black;
+  border-bottom: none;
+  width: 100px;
+  height: 150px;
+}
+
+#bottom{
+  position: relative;
+  top: -210px;
+  border: 1px solid black;
+  width: 498px;
+  height: 50px;
+}
+
+#wallExample{
+  border: 1px solid black;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: -60px;
+  width: 100px;
+  height: 25px;
+}
+
+#start, #end{
+  text-align: center;
+  color: black;
+  font-size: 20pt;
+  font-weight: bolder;
+  font-family: "Century Gothic", sans-serif;
+}
+
+#start{
+  border: 1px solid black;
+  position: relative;
+  top: -453px;
+  background-color: #84ff83;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+#end{
+  border: 1px solid black;
+  position: relative;
+  top: -489px;
+  left: 463px;
+  background-color: #8885ff;
+  width: 35px;
+  width: 35px;
+  cursor: pointer;
+}
+
+.roads{
+  background-color: none;
+  cursor: pointer;
+}
+
+#road{
+  position: relative;
+  top: -529px;
+  left: 35px;
+  width: 165px;
+  height: 44px;
+}
+
+#road1{
+  position: relative;
+  top: -679px;
+  left: 152px;
+  width: 48px;
+  height: 106px;
+}
+
+#road2{
+  position: relative;
+  top: -830px;
+  left: 150px;
+  width: 200px;
+  height: 47px;
+}
+
+#road3{
+  position: relative;
+  top: -830px;
+  left: 300px;
+  width: 49px;
+  height: 150px;
+}
+
+#road4{
+  position: relative;
+  top: -877px;
+  left: 349px;
+  width: 115px;
+  height: 46px;
+}
+
+.text{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: -60px;
+  width: 600px;
+}
+
+#cheat{
+  position: relative;
+  width: 30px;
+  height: 60px;
+  left: 650px;
+  top: -105px;
+  background-color: none;
+}

@@ -1,0 +1,134 @@
+body, #banner{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+body{
+	background-image: url(image/background.png);
+}
+
+#banner{
+	background-image: url(image/bannerbackground.png);
+	text-align: center;
+	height: 50px;
+}
+
+h1{
+	font-size: 24pt;
+	font-weight: bold;
+	text-align: center;
+	font-family: Tahoma, Verdana, sans-serif;
+}
+
+#main_body{
+	width: 800px;
+	overflow: hidden;
+	border: 4px solid gray;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#left_top{
+	background-image: url(image/rottenbackground.png);
+	background-repeat: repeat-x;
+	height: 83px;
+	vertical-align: bottom;
+}
+
+.left {
+	width: 550px;
+	background-repeat: repeat-x;
+	background-size: auto 83px;
+}
+
+.percentage{
+	font-size: 48pt;
+	color: red;
+	font-weight: bold;
+	vertical-align: 13px;
+	display: inline;
+}
+
+.total{
+	color: white;
+	display: inline;
+	vertical-align: 13px;
+}
+
+p{
+	font-size: 8pt;
+	font-family: Verdana, Tahoma, sans-serif; 
+}
+
+.left_part1{
+	width: 47%;
+	margin-left: 2%;
+	float: left;
+}
+
+.left_part2{
+	width: 47%;
+	margin-left: 51%;
+}
+
+.comment{
+	font-weight: bold;
+	background-color:#E1D697;
+	border: 2px solid gray;
+	padding: 8px;
+	overflow: hidden;
+}
+
+.image{
+	float: left;
+	margin-right: 5px;
+}
+
+.other{
+	font-style: italic;
+}
+
+.writer{
+	margin-bottom: 3em;
+	padding: 0px;
+}
+
+.right{
+	width: 250px;
+	background-color: #A2B964;
+	float: right;
+	margin-right: 0px;
+}
+
+.right_1{
+	font-size: 8pt;
+	font-family: Arial, sans-serif;
+	background-color: #A2B964;
+	position: relative;
+	margin: 10px;
+}
+
+dt{
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+.bottom{
+	background-color: #A2B964;
+	clear: right;
+	width: 800px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0px;
+}
+
+.w3c_img{
+	bottom: 0px;
+	right: 0px;
+	position: fixed;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}

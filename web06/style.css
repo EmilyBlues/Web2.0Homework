@@ -1,0 +1,294 @@
+body{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	height: 100vh;
+}
+
+h1, h2{
+	font-family: "Century Gothic", sans-serif;
+	text-align: center;
+}
+
+#info{
+	text-align: center;
+	font-size: 18pt;
+	font-family: "Century Gothic", sans-serif;
+	font-weight: bold;
+}
+
+#before{
+	position: relative;
+	margin-left: calc(50% - 75px);
+	width: 150px;
+	height: 150px;
+}
+
+#button{
+	position: relative;
+	top: -120px;
+}
+
+#gameButton, #recall{
+	position: relative;
+	
+	font-size: 15pt;
+	background-color: #4286F3;
+	color: #F7FCFF;
+	font-family: "Century Gothic", sans-serif;
+	border: none;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#gameButton{
+	width: 250px;
+	height: 40px;
+	margin-left: calc(50% - 260px);
+}
+
+#recall{
+	width: 140px;
+	height: 40px;
+	margin-left: calc(50% + 100px);
+	top: -40px;
+}
+
+#gameButton:active, #recall:active{
+	-webkit-box-shadow: 0px 0px 9px 0px #f9ff9e inset;
+	-moz-box-shadow: 0px 0px 9px 0px #f9ff9e inset;
+	-o-box-shadow: 0px 0px 9px 0px #f9ff9e inset;
+	background-color: #72a4f5;
+}
+
+#function{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	top: -140px;
+	width: 500px;
+	height: 70px;
+}
+
+#timeText, #time, #countText, #count{
+	position: relative;
+}
+
+p, input{
+	font-family: "Century Gothic", sans-serif;
+	font-size: 14pt;
+}
+
+#timeText{
+	width: 70px;
+	left: 90px;
+}
+
+#time, #count{
+	width: 70px;
+}
+
+#time{
+	left: 145px;
+	top: -45px;
+}
+
+#countText{
+	width: 70px;
+	left: 280px;
+	top: -90px;
+}
+
+#count{
+	width: 70px;
+	left: 350px;
+	top: -134px;
+}
+
+#main{
+	position: relative;
+	width: 380px;
+	height: 380px;
+	left: 235px;
+	top: -150px;
+	border: 1px solid gray;
+}
+
+.parts{
+	position: absolute;
+	overflow: hidden;
+	display: inline-block;
+	border: 1px solid white;
+	background-image: url("images/panda.jpg");
+	background-size: 380px 380px;
+	background-repeat: no-repeat;
+	width: 93px;
+	height: 93px;
+	float: left;
+	list-style: none;
+}
+
+.parts:hover{
+	cursor: pointer;
+	transform: scale(1.025, 1.025);
+    z-index: 1;
+	box-shadow: 0px 0px 16px 0 rgba(0,0,0,0.2), 0 0px 20px 0 rgba(0,0,0,0.19);
+	transition: all 0.4s;
+}
+
+.pos0{
+	left: 0%;
+	top: 0%;
+}
+
+.area0{
+	background-position: 0% 0%;
+}
+
+.pos1{
+	left: 25%;
+	top: 0%;
+}
+
+.area1{
+	background-position: 33.3333% 0%;
+}
+
+.pos2{
+	left: 50%;
+	top: 0%;
+}
+
+.area2{
+	background-position: 66.6666% 0%;
+}
+
+.pos3{
+
+	left: 75%;
+	top: 0%;
+}
+
+.area3{
+	background-position: 100% 0%;
+}
+
+.pos4{
+	left: 0%;
+	top: 25%;
+}
+
+.area4{
+	background-position: 0% 33.3333%;
+}
+
+.pos5{
+	left: 25%;
+	top: 25%;
+}
+
+.area5{
+	background-position: 33.3333% 33.3333%;
+}
+
+.pos6{
+	left: 50%;
+	top: 25%;
+}
+
+.area6{
+	background-position: 66.6666% 33.3333%;
+}
+
+.pos7{
+	left: 75%;
+	top: 25%;
+}
+
+.area7{
+	background-position: 100% 33.3333%;
+}
+
+.pos8{
+	left: 0%;
+	top: 50%;
+}
+
+.area8{
+	background-position: 0% 66.6666%;
+}
+
+.pos9{
+	left: 25%;
+	top: 50%;
+}
+
+.area9{
+	background-position: 33.3333% 66.6666%;
+}
+
+.pos10{
+	left: 50%;
+	top: 50%;
+}
+
+.area10{
+	background-position: 66.6666% 66.6666%;
+}
+
+.pos11{
+	left: 75%;
+	top: 50%;
+}
+.area11{
+	background-position: 100% 66.6666%;
+}
+
+.pos12{
+	left: 0%;
+	top: 75%;
+}
+
+.area12{
+	background-position: 0% 100%;
+}
+
+.pos13{
+	left: 25%;
+	top: 75%;
+}
+
+.area13{
+	background-position: 33.3333% 100%;
+}
+
+.pos14{
+	left: 50%;
+	top: 75%;
+}
+
+.area14{
+	background-position: 66.6666% 100%;
+	
+}
+
+.pos15{
+	left: 75%;
+	top: 75%;
+}
+
+.area15{
+	background-color: #DDDFDE;
+	background-image: none;
+}
+
+
+#origin{
+	position: relative;
+	left: -200px;
+	top: 180px;
+}
+
+#pre{
+	font-size: 14pt;
+}

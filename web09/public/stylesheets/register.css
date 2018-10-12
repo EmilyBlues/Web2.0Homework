@@ -1,0 +1,85 @@
+#main{
+	position: relative;
+	top: 12px;
+	width: 385px;
+	height: 630px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	border-radius: 3px;
+	box-shadow: 0px 0px 16px 0 rgba(0,0,0,0.2), 0 0px 20px 0 rgba(0,0,0,0.19);
+}
+
+body{
+	text-align: center;
+	background-color: #F1F2F3;
+	font: 10px '微软雅黑', serif;
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+
+h1 {
+	position: relative;
+	font-weight: lighter;
+	font-size: 30px;
+}
+
+img{
+	position: relative;
+	top: 20px;
+	width: 131px;
+	height: 77px;
+}
+
+input {
+	font-family: '微软雅黑', serif;
+	font-weight: lighter;
+	width: 300px;
+	font-size: 17px;
+	border: none;
+	outline-style: none;
+	border-bottom: 1px gray solid;
+	margin: 0px 5px 0px 5px;
+}
+
+.error {
+	height: 20px;
+	color: #9c5656;
+	display: block;
+	font-size: 15px;
+	opacity: 0;
+}
+
+.button{
+	position: absolute;
+	top: 480px;
+}
+
+.button{
+	text-align: center;
+	font-family: "Century Gothic", sans-serif;
+	background-color: #0091ea;
+	border:1px solid #0091ea;
+	color: white;
+	font-size: 18px;
+	width: 200px;
+	height: 32px;
+	line-height: 32px;
+	margin-bottom: 10px;
+	text-align: center;
+	position: relative;
+	top: 10px;
+	border-radius: 3px;
+	transition: all 0.2s;
+	}
+
+.button:active{
+	box-shadow: 0px 0px 16px 0 rgba(0,0,0,0.2), 0 0px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button:hover{
+	background-color: #01BCFF;
+	border: 1px solid #01BCFF;
+}
+
